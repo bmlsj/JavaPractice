@@ -7,7 +7,7 @@ public class MainClass {
 		System.out.println("Hello World!!");
 		System.out.println("hello");
 		
-		// sysout ´©¸£°í ctrl + space ´©¸£¸é ¹Ù·Î println ³ª¿È
+		// sysout ìž…ë ¥í•˜ê³  ctrl + space ëˆ„ë¥´ë©´ println ì™„ì„±!
 	}
 
 }
