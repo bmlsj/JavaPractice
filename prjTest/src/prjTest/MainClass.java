@@ -4,7 +4,10 @@ public class MainClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("Hello World!");
+		System.out.println("Hello World!!");
+		System.out.println("hello");
+		
+		// sysout 누르고 ctrl + space 누르면 바로 println 나옴
 	}
 
 }
