@@ -4,7 +4,7 @@ public class Characters {
 	
 	public static void main(String[] args) {
 		
-		// 특수 문자 : 특수한 목적으로 사용되는 문자
+		// 1. 특수 문자 : 특수한 목적으로 사용되는 문자
 		/* 탭 : /t 
 		 * 줄바꿈 : \n
 		 * 작은 따옴표 : \'
@@ -19,7 +19,7 @@ public class Characters {
 		System.out.println("5. Good \\Morning\\");
 		
 		
-		// 서식 문자 : 서식에 사용되는 문자
+		// 2. 서식 문자 : 서식에 사용되는 문자
 		/* %d : 10진수, %o : 8진수
 		 * %x : 16진수, %c : 문자
 		 * %s : 문자열, %f : 실수*/
@@ -47,7 +47,7 @@ public class Characters {
 		System.out.printf("d = %f\n", d);
 		
 		
-		// 정렬과 소수점 제한 기능
+		// 3. 정렬과 소수점 제한 기능
 		// 일반
 		System.out.printf("\n%d\n", 123);		//123
 		System.out.printf("%d\n", 1234);		//1234
