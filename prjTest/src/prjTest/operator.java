@@ -86,6 +86,33 @@ public class operator {
 		System.out.println("\nb1 && b2 : " + (b1 && b2));	// false
 		System.out.println("b1 || b2 : " + (b1 || b2));		// true
 		System.out.println("!b1 : " + (!b1));				// true
+		
+		// 조건(삼항) 연산자
+		// 두개의 피연산자 연산 결과에 따라, 나머지 피연산자가 결정된다.
+		// 조건식 ? 식1 : 식2	-> 조건식이 참이면 식1, 거짓이면 식2가 실행된다.
+		x = 10; y = 20;
+		int result = 0;
+		result = (x > y)? 100 : 200;
+		System.out.println("\nresult : "+ result);	// 200
+		
+		result = (x < y)? 100 : 200;
+		System.out.println("result : "+ result);	// 100
+		
+		result = (x == y)? 100 : 200;
+		System.out.println("result : "+ result);	// 200
+		
+		
+		// 비트 연산자
+		// 데이터를 bit단위로 환산하여 연산을 수행, 다른 연산자보다 연산 속도가 향상된다.
+		// 1. &(AND 연산) : a & b -> a와 b가 모두 1이면, 1
+		// 2. |(OR 연산) : a | b -> a, b 중 하나라도 1이면, 1
+		// 3. ^(XOR 연산) : a^b -> a, b가 서로 같지 않으면, 1
+		x = 2;	// 0000 0010
+		y = 3;	// 0000 0011
+		
+		System.out.println("x & y : " + (x&y));	// 0000 0010 : 2
+		System.out.println("x | y : " + (x|y));	// 0000 0011 : 3
+		System.out.println("x ^ y : " + (x^y)); // 0000 0001 : 1
 
 		
 	}
