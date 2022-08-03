@@ -6,7 +6,6 @@ public class Enum {
     // 기존 : 상수 사용의 문제점
     //   - 원했던 값이 아닌 다른 값이 들어와도 전혀 문제가 발생하지 않는다.
 
-
     // 상수 예제
     public static final String MALE = "MALE";
     public static final String FEMALE = "FEMALE";
