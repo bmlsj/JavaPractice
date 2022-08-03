@@ -1,20 +1,20 @@
 package prjTest;
 
-public class Method2_10 {
+public class Method2 {
 
     // 참조 타입
-    public void addOne(int value){
+    public void addOne(int value) {
         value++;
     }
 
-    public void addOne(int[] arr){
-        for(int i =0;i<arr.length;i++){
+    public void addOne(int[] arr) {
+        for (int i = 0; i < arr.length; i++) {
             arr[i]++;
         }
     }
 
     public static void main(String[] args) {
-        Method2_10 ref = new Method2_10();
+        Method2 ref = new Method2();
 
         int value = 10;
         ref.addOne(value);
