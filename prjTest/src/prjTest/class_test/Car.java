@@ -5,4 +5,7 @@ public class Car {
     // 클래스란?
     // 객체를 만들기 위한 틀
 
+    static int wheelCount;
+    int globalVal;
+
 }
