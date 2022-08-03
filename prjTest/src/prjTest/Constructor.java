@@ -13,7 +13,6 @@ public class Constructor {
     // 4. 생성자를 하나라도 프로그래머가 만들었다면, 기본 생성자는 만들어지지 않는다.
 
 
-
     // this : 현지 객체, 자기자신을 나타냄
     // 클래스 내부에서 자기 자신이 가지고 있는 메소드를 사용할 때도, this.메소드명() 으로 호출 가능
 
@@ -21,12 +20,12 @@ public class Constructor {
     String name;
     int number;
 
-    public void Constructor(String n){
+    public void Constructor(String n) {
         name = n;       // 가독성 감소
     }
 
     // ex2) this 사용 시
-    public void Constructor(String name, int number){
+    public void Constructor(String name, int number) {
         this.name = name;
         // this.name = 클래스의 필드(변수) name
         // 뒤에 name : 매개 변수
