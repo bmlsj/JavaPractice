@@ -2,7 +2,7 @@ package prjTest;
 
 import java.util.Scanner;
 
-public class conditional_5 {
+public class conditional {
 
 	public static void main(String[] args) {
 		
