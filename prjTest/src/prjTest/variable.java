@@ -1,6 +1,6 @@
 package prjTest;
 
-public class variable_2 {
+public class variable {
 
 	public static void main(String[] args) {
 		// 변수란? 데이터(자료)를 임시로 담을 수 있는 메모리 공간
