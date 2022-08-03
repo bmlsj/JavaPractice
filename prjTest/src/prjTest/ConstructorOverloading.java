@@ -8,11 +8,11 @@ public class ConstructorOverloading {
     String name;
     int number;
 
-    public void ConstructorOverloading(String name){
+    public void ConstructorOverloading(String name) {
         this.name = name;
     }
 
-    public void ConstructorOverloading(String name, int number){
+    public void ConstructorOverloading(String name, int number) {
         this.name = name;
         this.number = number;
     }
