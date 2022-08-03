@@ -13,6 +13,7 @@ public class forEach_8 {
 
         int[] arr2 = {10, 20, 30, 40, 50};
         // forEach 구문
+        // - 값 변경 불가
         for(int i:arr2){
             System.out.println(i);
         }
