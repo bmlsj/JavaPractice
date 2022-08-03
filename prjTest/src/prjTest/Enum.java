@@ -23,10 +23,9 @@ public class Enum {
     }
 
     // enum 열거형
-    enum Gender{
+    enum Gender {
         MALE, FEMALE;
     }
-
 
 
 }

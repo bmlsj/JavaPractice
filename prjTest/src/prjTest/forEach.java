@@ -1,6 +1,6 @@
 package prjTest;
 
-public class forEach_8 {
+public class forEach {
 
     public static void main(String[] args) {
 
