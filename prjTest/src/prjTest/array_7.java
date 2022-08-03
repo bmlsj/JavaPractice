@@ -29,12 +29,11 @@ public class array_7 {
 		
 		// 2. 배열 선언과 초기화를 동시에
 		int[] arr2 = {10, 20, 30, 40, 50};
-		System.out.println("\narr2[0] : " + arr2[0]);
-		System.out.println("arr2[1] : " + arr2[1]);
-		System.out.println("arr2[2] : " + arr2[2]);
-		System.out.println("arr2[3] : " + arr2[3]);
-		System.out.println("arr2[4] : " + arr2[4]);
+		int[] a2 = new int[]{1, 2, 3, 4, 5};
 
+		for (int i=0; i<arr2.length; i++){
+			System.out.printf("arr2[%d] : %d\n", i, arr2[i]);
+		}
 		
 		// 3. 배열은 많은 데이터를 효율적으로(쉽게) 관리하기 위해 사용한다.
 		// ex) 학사관리
@@ -109,7 +108,19 @@ public class array_7 {
 		System.out.println("\narrMul[0] : " + Arrays.toString(arrMul[0]));	// 1행 - 10
 		System.out.println("arrMul[1] : " + Arrays.toString(arrMul[1]));	// 2행 - 20
 		System.out.println("arrMul[2] : " + Arrays.toString(arrMul[2]));	// 3행 - 30
-		
+
+		int[][] arrMul2 = new int[3][];
+		// 0
+		// 1
+		// 2
+
+		// 값을 만들겠다고 미리 선언해주어야 한다.
+		arrMul2[0] = new int[1];
+		arrMul2[0][0] = 10;
+		// 10 0
+		// 0
+		// 0
+
 	}
 
 }
