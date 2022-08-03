@@ -1,6 +1,6 @@
 package prjTest;
 
-public class operator_4 {
+public class operator{
 
 	public static void main(String[] args) {
 
