@@ -1,6 +1,6 @@
 package prjTest;
 
-public class String_9 {
+public class StringClass {
 
     public static void main(String[] args) {
 
