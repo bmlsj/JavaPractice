@@ -1,8 +1,8 @@
 package prjTest;
 
-public class Characters_3 {
+public class Characters{
 	
-	public static void main(String[] args) {
+	public static void main(StringClass[] args) {
 		
 		// 1. 특수 문자 : 특수한 목적으로 사용되는 문자
 		/* 탭 : /t 
