@@ -7,5 +7,5 @@
 ##### 2. main + ctrl + space : public static void main(String[] args){ .. }
 
 #### 인텔리제이 단축키
-##### 1. sout + ctrl + space : System.outlprintln()
-##### 2. main + ctrl + space : public static void main(String[] args){}
+##### 1. sout  : System.outlprintln()
+##### 2. main  : public static void main(String[] args){}
