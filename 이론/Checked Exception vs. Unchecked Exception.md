@@ -32,10 +32,11 @@
 
 > ex) ```ArrayIndexOutOfBoundsException```(배열의 범위를 벗어난), ```NullPointerException```(값이 null인 참조변수를 참조)
 > , ```FileNotFoundException```(존재하지 않는 파일 이름)
-
+> 
+<br></br>
 예외는 2가지로 나눌 수 있다.
-1. Checked Exception
-2. UnChecked Exception
+> 1. **Checked Exception**
+> 2. **UnChecked Exception**
 
 
 ### 1. Checked Exception
