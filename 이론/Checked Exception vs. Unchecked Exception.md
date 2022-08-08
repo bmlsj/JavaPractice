@@ -15,7 +15,7 @@
 이러한 예외 클래스들은 최상위 클래스인 Object를 상속받은 Throwable이라는 클래스를 기반으로 Error와 Exception 클래스로 나뉘며,
 이때 Exception 클래스는 RuntimeException 상속 여부에 따라 ```Checked Exception```과 ```Unchecked Exception```으로 나뉜다.
 <br></br>
-![img.png](img.png){: width="300%" height="300%"}
+![img.png](img.png)
 
 - ```Checked Exception```은 ```Exception 클래스```를 상속 받아 정의되었다.
   - 반드시 오류를 처리해야하는 Exception
@@ -91,6 +91,7 @@ public class ArrayExam {
 - **Unchecked Exception** : Rollback이 되지 않고 트랜잭션이 Commit까지 완료
 - **Checked Exception** : Rollback이 된다.
 
+<br></br>
 ### 둘 중 선택하기
 - 임의의 예외 클래스와 만들어 예외 처리를 하는 경우가 많은데, 이때 ```try-catch```문으로 묶어줄 필요가 있을 경우에만 Exception 클래스를 확장한다.
 - 일반적을 실행 시 예외를 처리할 수 있는 경우에는 RuntimeException 클래스를 확장해 UnChecked Exception을 사용하는 것이 좋다.
